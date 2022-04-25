@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/pictonb">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen50dp"
+        android:layout_marginTop="@dimen/dimen150dp"
+        android:fontFamily="@font/araboto_light_400"
+        android:text="@string/verivyyour"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen37dp" />
+
+    <TextView
+        android:id="@+id/wehave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verify"
+        android:layout_marginLeft="@dimen/dimen10dp"
+        android:fontFamily="@font/araboto_light_400"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/dimen10dp"
+        android:text="@string/wehave"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen16dp"/>
+    <EditText
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen50dp"
+        android:layout_marginLeft="@dimen/dimen20dp"
+        android:layout_marginRight="@dimen/dimen20dp"
+        android:layout_below="@+id/wehave"
+        android:text="@string/enter"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dimen16dp"
+        android:backgroundTint="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen20dp"
+        android:layout_marginTop="@dimen/dimen25dp"
+        android:layout_marginRight="@dimen/dimen20dp"
+        android:layout_below="@+id/enter"
+        android:background="@drawable/border_button"
+        android:text="@string/send"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_below="@+id/send">
+
+
+        <TextView
+            android:id="@+id/doesnt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen15dp"
+            android:text="@string/doesnt2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="@dimen/dimen15dp"
+            android:onClick="register"
+            android:nextFocusRight="@string/doesnt2"
+            android:text="@string/resend"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen16dp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

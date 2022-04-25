@@ -26,4 +26,13 @@
     <string name="thank">Thank you for registering with us. One more step, you neet to check your email to activate your account</string>
     <string name="verify">VERIFY</string>
 
+    <string name="verivyyour">Verify Your Account</string>
+    <string name="wehave">We have send notification code to your email</string>
+    <string name="enter">enter verification code here</string>
+    <string name="send">SEND</string>
+    <string name="doesnt2">doesnt get the code?</string>
+    <string name="resend">Resend</string>
+
+
+
 </resources>
