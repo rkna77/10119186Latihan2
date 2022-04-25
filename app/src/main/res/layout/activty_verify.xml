@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pictonb">
+    android:background="@color/pictonb"
+    tools:context=".verify_code">
 
     <TextView
         android:id="@+id/verify"

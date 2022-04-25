@@ -36,7 +36,6 @@ public class register extends AppCompatActivity {
         Toast.makeText(register.this,"Selected"+blood.getSelectedItem().toString(), Toast.LENGTH_SHORT).show();
     }
 
-
     public void back(View v){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
