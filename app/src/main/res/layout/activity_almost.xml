@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pictonb">
+
+   <TextView
+       android:id="@+id/almost"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="@dimen/dimen80dp"
+       android:layout_marginTop="@dimen/dimen150dp"
+       android:fontFamily="@font/araboto_light_400"
+       android:text="@string/almost"
+       android:textColor="@color/white"
+       android:textSize="@dimen/dimen45dp" />
+
+   <TextView
+       android:id="@+id/thank"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/almost"
+       android:layout_marginLeft="@dimen/dimen10dp"
+       android:fontFamily="@font/araboto_light_400"
+       android:layout_marginTop="30dp"
+       android:layout_marginRight="@dimen/dimen10dp"
+       android:text="@string/thank"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+       android:textSize="@dimen/dimen19dp"/>
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="@dimen/dimen25dp"
+       android:layout_marginTop="@dimen/dimen45dp"
+       android:layout_marginRight="@dimen/dimen25dp"
+       android:layout_below="@+id/thank"
+       android:background="@drawable/border_button"
+       android:text="@string/verify"
+       android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

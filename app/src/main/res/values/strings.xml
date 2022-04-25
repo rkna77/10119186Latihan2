@@ -21,4 +21,9 @@
     <string name="home_address">Home Address</string>
     <string name="location">Default Location</string>
     <string name="agree">Agree with Terms and Conditions</string>
+
+    <string name="almost">Almost There</string>
+    <string name="thank">Thank you for registering with us. One more step, you neet to check your email to activate your account</string>
+    <string name="verify">VERIFY</string>
+
 </resources>
