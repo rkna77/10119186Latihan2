@@ -33,6 +33,22 @@
     <string name="doesnt2">doesnt get the code?</string>
     <string name="resend">Resend</string>
 
+    <string name="nama">Rika Nur Adila</string>
+    <string name="goldar">Blood Type : A</string>
+    <string name="give">BLOOD GIVE</string>
+    <string name="received">BLOOD RECEIVED</string>
+    <string name="thanks">THANKS</string>
+    <string name="search">Search Donor</string>
+    <string name="near">Search donor near you</string>
+    <string name="needed">Blood Needed</string>
+    <string name="need">4 user need blood</string>
+    <string name="message">Message</string>
+    <string name="message2">5 New Messages</string>
+    <string name="history">Donor History</string>
+    <string name="history2">5 Gives, 2 Received</string>
+    <string name="tujuhlima">75</string>
+    <string name="cepe">100</string>
+    <string name="tigatiganol">330</string>
 
 
 </resources>

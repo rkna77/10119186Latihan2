@@ -5,12 +5,14 @@
       <map>
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/drawable/border_button.xml" value="0.1995" />
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/drawable/border_button_r.xml" value="0.1995" />
+        <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/drawable/bulat_profile.xml" value="0.2065" />
+        <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/drawable/sircle_profile.xml" value="0.2065" />
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/font/lato_regular.xml" value="0.28958333333333336" />
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/layout/activity_almost.xml" value="0.259375" />
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/layout/activity_register.xml" value="0.264" />
         <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/layout/activty_verify.xml" value="0.264" />
-        <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/layout/profile.xml" value="0.259375" />
+        <entry key="..\:/Users/Rika/AndroidStudioProjects/10119186Latihan2/app/src/main/res/layout/profile.xml" value="0.264" />
       </map>
     </option>
   </component>
